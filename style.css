@@ -1,0 +1,31 @@
+body{
+    background-color: #c5bead;
+    margin: 50px;
+}
+
+h1{
+    color: #b16666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: #594a3d;
+}
+
+p{
+    color: #3b5370;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    color: #3b5370;
+}
+
+.ThisBox{
+    width: auto;
+    height: auto;
+    background-color: #a89771;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 10px;
+}
