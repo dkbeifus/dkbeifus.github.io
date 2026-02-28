@@ -13,9 +13,10 @@
 ### What Went Well
 
 The website was finished and loaded with no issues.  The documentation was put together without any trouble.  A draft copy of the website was demonstrated to other system operators with swift approval and some ideas on updating some of the wording.
+
 ### What Went Wrong
 
-There is not much to account for in the what went wrong category, but there was an environmental issue that had to be dealt with in the form of a VS Code plugin not working as expected.  I attempted to use the Go Live plugin to see live updates as I wrote the page, but it did not seem to work.  Instead of further troubleshooting, I opted to keep a copy of the page open on my browser and refresh the page after every major change. 
+There is not much to account for in the what went wrong category, but there was an environmental issue that had to be dealt with in the form of a VS Code plugin not working as expected.  I attempted to use the Go Live plugin to see live updates as I wrote the page, but it did not seem to work.  Instead of further troubleshooting, I opted to keep a copy of the page open on my browser and refresh the page after every major change.   Another lesson learned is that Github Markdown Viewer needs a space after the hash for headers.  This was evident when checking the files after pushing the files to github.
 
 ### What To Improve Upon
 
