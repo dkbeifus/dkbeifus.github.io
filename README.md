@@ -10,4 +10,4 @@ The content for this project was chosen for a real world need to document steps 
 
 **_To see the  project's documentation, please use the link below_**.
 
-[Project Documentation](https://github.com/dkbeifus/dkbeifus.github.io/docs)
+[Project Documentation](https://github.com/dkbeifus/dkbeifus.github.io/tree/main/docs)
