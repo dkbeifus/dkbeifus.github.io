@@ -1,4 +1,5 @@
 #Project Plan
+
 ###Risks
 
 |Risk|Impact|Probability|Score|
@@ -8,9 +9,11 @@
 |Others in the media team not accepting the documentation|5|3|15|
 
 ###TAME Risks
+
 Out of all of the risks, the one that I think has the biggest chance of being an issue is the risk of other media team members not accepting the documentation.  The plan to handle this risk is to mitigate the risk by demonstrating what the web page can do and seeking input early on.
 
 ###Work Breakdown Structure
+
 For planning purposes, the hours breakdown will be in quarter hour increments, so short tasks will be counted as no less than 0.25 hours.
 
 |ID|Deliverable/Task|Hours|Responsible Party|
