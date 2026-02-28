@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>CMPA 3301 Project 03 - Daniel Beifus - About Page</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <a href="index.html">Back To Initial Page</a>
+        <p></p>
+        <h1>About Media</h1>
+        <h2>Purpose</h2>
+        <p>The media team provides audio/visual support during services by operating the Audio, light, camera, and computer equipment.</p>
+        <h2>Audio</h2>
+        <p>The computer program MasterFader is used to control the MACKIE DL32S soundboard located on the stage.  
+            <br>All instruments, microphones, and audio inputs are routed through the soundboard and adjusted at this PC.
+            <br>Aux 8 from the soundboard is routed to the media room and enters Focusrite Scarlett Solo Gen 3 (the red box) and from there goes to the production computer via analog output converted to USB.
+        </p>
+        <h2>Lights</h2>
+        <p>The Audio PC controls the overhead stage lights.
+            <br>The Light board in the media room controls the stagelights located on the either side of the stage.
+        </p>
+        <h2>Camera</h2>
+        <p>The camera is a 20x zoom webcam with HDMI, USB, and NDI output.  Current implementation is HDMI output.
+            <br>The camera is controlled by a control board connected to the webcam by a direct connection with an ethernet cable.
+            <br>The capture card receiving the HDMI output sends the video to the computer via USB and sends a copy of that signal a monitor via HDMI.
+            <br>Along with the monitor showing the webcam feed, another monitor is used for determining camera adjustments which shows a copy of what is being sent out on the streams.
+        </p>
+        <h2>Computers</h2>
+        <p>There are three computers in the media room.  The audio PC, the production PC, and the stream audio PC.  All PCs run on Linux Mint.</p> 
+            <h3>Audio PC</h3>
+            <p>The Audio PC runs MasterFader to control the MACKIE DL32S soundboard. The Windows emulator known as Wine is used to run MasterFader.
+                <br>The Audio PC runs QLC Plus to control the overhead stage lights.
+            </p>
+            <h3>Stream Audio PC</h3>
+            <p>The stream Audio PC is setup like the Audio PC with the except of not having QLC Plus.
+                <br>Through correct configuration of MasterFader, the stream audio can be adjusted independent of the rest of the system.
+                <br>Without setting up the configuration for stream only, this PC will adjust the audio in the same manner as the Audio PC.
+            </p>
+            <h3>Production PC</h3>
+            <p>The production PC handles the production software and controls the stream, recording, and in-house displays.
+                <br>This PC has four display outputs.  Two outputs are dedicated to operator use, one goes to an HDMI splitter for the sanctuary displays, and one goes to an HDMI splitters to go to displays throughout the church to show a copy of what the stream shows.
+                <br>Freeshow is used to display videos, slides, and scripture.
+                <br>OBS Studio is used to stream and provides a recording of the stream.  The main output is sent to YouTube and Facebook via the plugin Aiteum Multistream and is also sent to the HDMI splitter that shows the stream content.
+                <br>The scene output labeled "OUTPUT - Sanctuary Displays" is sent to the other HDMI splitter.  This allows for showing fullscreen content while allowing the stream to show the content in a split screen or as an overlay.
+                <br>The switching of the scenes and applying overlays have been set up with hotkeys to make the process simple.
+            </p>
+    </body>
+</html>
